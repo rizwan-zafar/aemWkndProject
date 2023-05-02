@@ -44,6 +44,6 @@ class SimpleServletTest {
 
         fixture.doGet(request, response);
 
-        assertEquals("Title = resource titleee", response.getOutputAsString());
+        assertEquals("Title = resource tite", response.getOutputAsString());
     }
 }
