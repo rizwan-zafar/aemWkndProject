@@ -24,5 +24,5 @@ curl -u $USER_NAME:$PASSWORD -F action=install -F bundlestartlevel=20 -F bundlef
 
 
 #content
-curl -u $USER_NAME:$PASSWORD -F cmd=upload -F force=true -F package=@ui.content/target/aem-guides-wknd.ui.content-0.0.1-SNAPSHOT.zip http://$AEM_AUTHOR_HOST:$AEM_AUTHOR_PORT/crx/packmgr/service/.json
-curl -u $USER_NAME:$PASSWORD -F cmd=install http://$AEM_AUTHOR_HOST:$AEM_AUTHOR_PORT/crx/packmgr/service/.json/etc/packages/com.adobe.aem.guides/aem-guides-wknd.ui.content-0.0.1-SNAPSHOT.zip
+curl -u $USER_NAME:$PASSWORD -F cmd=upload -F force=true -F package=@ui.content/target/cxp-wp.ui.content-1.0.zip http://$AEM_AUTHOR_HOST:$AEM_AUTHOR_PORT/crx/packmgr/service/.json
+# curl -u $USER_NAME:$PASSWORD -F cmd=install http://$AEM_AUTHOR_HOST:$AEM_AUTHOR_PORT/crx/packmgr/service/.json/etc/packages/com.adobe.aem.guides/cxp-wp.ui.content-1.0.zip
